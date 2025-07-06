@@ -2,4 +2,4 @@ language: python
 python:
   - "3.8"
 script:
-- python3 ./some_app.py
+- python ./some_app.py
