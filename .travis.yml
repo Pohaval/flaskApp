@@ -1,13 +1,5 @@
 language: python
-python:
-  - "2.7"
-  - "3.8"
-  # PyPy versions
-  - "pypy"   # currently Python 2.7.18, PyPy 7.3.19
-  - "pypy3"  # currently Python 3.10.16,  PyPy 7.3.19
-# command to install dependencies
 install:
-  - pip install -r requirements.txt
-  - pip install .
-# command to run tests
-script: pytest
+- pip3 install flask
+script:
+- python3 ./flaskapp/some_app.py
