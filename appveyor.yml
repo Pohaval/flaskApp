@@ -1,6 +1,9 @@
-
+build: off
+before_install:
+- chmod +x ./flaskapp/st.sh
 install:
 - pip3 install flask
-build: off
+- pip3 install gunicorn
 test_script:
-- py ./flaskapp/some_app.py
+- cd flaskapp
+- ./st.sh
