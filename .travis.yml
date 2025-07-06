@@ -1,4 +1,4 @@
 language: python
 python:
   - "3.8"
-script: python ./flaskapp/some_app.py
+script: python3 ./flaskapp/some_app.py
