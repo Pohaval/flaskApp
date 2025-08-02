@@ -1,9 +1,5 @@
 build: off
 image: Ubuntu
-deploy:
-  proovider: heroku
-  api_key:
-    secure: HRKU-AANlxnefHpXBtMMIiEedFyY73e3981R06UjA8AR74Qsw_____w7JEZh067a-
 install:
 - chmod +x ./flaskapp/st.sh
 - pip3 install flask
